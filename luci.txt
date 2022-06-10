@@ -1,0 +1,147 @@
+#2021-07-14 16:00 更新
+<*> luci-app-accesscontrol........................访问时间控制
+< > luci-app-adblock..............................ADB广告过滤
+<*> luci-app-adbyby-plus..........................广告屏蔽大师Plus +
+< > luci-app-advanced-reboot......................Linksys高级重启
+< > luci-app-ahcp.................................支持AHCPd
+<*> luci-app-airplay2.............................airplay2
+< > luci-app-amule................................aMule下载工具
+< > luci-app-aria2................................Aria2下载工具
+<*> luci-app-arpbind..............................IP/MAC绑定
+< > luci-app-asterisk.............................支持Asterisk电话服务器
+< > luci-app-attendedsysupgrade...................固件更新升级相关
+<*> luci-app-autoreboot...........................支持计划重启
+< > luci-app-baidupcs-web.........................百度网盘管理
+< > luci-app-bcp38................................BCP38网络入口过滤（不确定）
+< > luci-app-bird1-ipv4...........................对Bird1-ipv4的支持
+< > luci-app-bird1-ipv6...........................对Bird1-ipv6的支持
+< > luci-app-bmx6.................................BMX6路由协议
+< > luci-app-cifs-mount...........................不知道，不清楚，不明白
+< > luci-app-cifsd................................网络共享CIFS/SMB服务器
+< > luci-app-cjdns................................加密IPV6网络相关
+< > luci-app-clamav...............................ClamAV杀毒软件
+< > luci-app-commands.............................Shell命令模块
+< > luci-app-cshark...............................CloudShark捕获工具
+<*> luci-app-ddns.................................动态域名 DNS（集成阿里DDNS客户端）
+< > luci-app-diag-core............................core诊断工具
+<*> luci-app-diskman..............................磁盘管理
+[*] Include btrfs-progs
+[*] Include lsblk
+[ ] Include mdadm
+< > luci-app-dnscrypt-proxy.......................DNSCrypt解决DNS污染
+< > luci-app-dnsfilter............................DNSFilter
+< > luci-app-dnsforwarder.........................DNSForwarder防DNS污染
+<*> luci-app-docker...............................Docker
+<*> luci-app-dockerman............................Docker容器
+< > luci-app-dump1090.............................民航无线频率（不确定）
+< > luci-app-dynapoint............................DynaPoint（未知）
+< > luci-app-e2guardian...........................Web内容过滤器
+< > luci-app-easymesh.............................不知道，不清楚，不明白
+< > luci-app-familycloud..........................家庭云盘
+<*> luci-app-filetransfer.........................文件传输（可web安装ipk包）
+-*- luci-app-firewall.............................添加防火墙
+<*> luci-app-frpc.................................内网穿透 Frp 客户端
+< > luci-app-frps.................................内网穿透 Frp 服务端
+< > luci-app-fwknopd..............................不知道，不清楚，不明白
+< > luci-app-guest-wifi...........................WiFi访客网络
+< > luci-app-haproxy-tcp..........................HAProxy负载均衡-TCP
+<*> luci-app-hd-idle..............................硬盘休眠
+< > luci-app-hnet.................................Homenet Status家庭网络控制协议
+< > luci-app-https-dns-proxy......................不知道，不清楚，不明白
+< > luci-app-ipsec-vpnd...........................不知道，不清楚，不明白
+< > luci-app-jd-dailybonus........................京东每日签到
+<*> luci-app-kodexplorer..........................KOD可道云私人网盘
+< > luci-app-lxc..................................LXC容器管理
+< > luci-app-minidlna.............................完全兼容DLNA / UPnP-AV客户端的服务器软件
+< > luci-app-mjpg-streamer........................兼容Linux-UVC的摄像头程序
+< > luci-app-music-remote-center..................音乐中心
+< > luci-app-mwan3................................MWAN3负载均衡
+< > luci-app-mwan3helper..........................MWAN3分流助手
+< > luci-app-n2n_v2...............................N2N内网穿透
+<*> luci-app-netdata..............................Netdata实时监控（图表）
+< > luci-app-nfs..................................不知道，不清楚，不明白
+< > luci-app-nft-qos..............................QOS流控 Nftables版
+-*- luci-app-nlbwmon..............................网络带宽监视器
+< > luci-app-noddos...............................NodDOS Clients 阻止DDoS攻击
+< > luci-app-nps..................................内网穿透nps
+< > luci-app-ntpc.................................NTP时间同步服务器
+< > luci-app-ocserv...............................不知道，不清楚，不明白
+< > luci-app-olsr.................................OLSR配置和状态模块
+< > luci-app-olsr-services........................不知道，不清楚，不明白
+< > luci-app-olsr-viz.............................OLSR可视化
+< > luci-app-openvpn..............................不知道，不清楚，不明白
+< > luci-app-openvpn-server.......................不知道，不清楚，不明白
+< > luci-app-p910nd...............................打印服务器模块
+< > luci-app-pagekitec............................Pagekite内网穿透客户端
+< > luci-app-polipo...............................Polipo代理(是一个小型且快速的网页缓存代理)
+< > luci-app-pppoe-relay..........................PPPoE NAT穿透 点对点协议（PPP）
+< > luci-app-privoxy..............................Privoxy网络代理(带过滤无缓存)
+< > luci-app-ps3netsrv............................不知道，不清楚，不明白
+<*> luci-app-qbittorrent..........................BT下载工具（qBittorrent）
+< > luci-app-qos..................................流量服务质量(QoS)流控
+< > luci-app-radicale.............................CalDAV/CardDAV同步工具
+<*> luci-app-ramfree..............................释放内存
+< > luci-app-rclone...............................不知道，不清楚，不明白
+[*] Include rclone-webui
+[*] Include rclone-ng (another webui)
+[*] Include fuse-utils (mount cloud storage)
+< > luci-app-rp-pppoe-server......................Roaring Penguin PPPoE Server 服务器
+-*- luci-app-samba................................网络共享（Samba）
+< > luci-app-samba4...............................网络共享（Samba4）
+< > luci-app-xxxxxxxxxxxxxxxxx....................不知道，不清楚，不明白
+< > luci-app-shairplay............................支持AirPlay功能
+< > luci-app-siitwizard...........................SIIT配置向导 SIIT-Wizzard
+< > luci-app-simple-adblock.......................简单的广告拦截
+< > luci-app-softethervpn.........................不知道，不清楚，不明白
+< > luci-app-splash...............................Client-Splash是无线MESH网络的一个热点认证系统
+<*> luci-app-sqm..................................流量智能队列管理（QOS）
+< > luci-app-squid................................Squid代理服务器
+<*> luci-app-ssx-xxxx                             不知道，不清楚，不明白
+[ ] Include xxx        							  不知道，不清楚，不明白
+[ ] Include xxx        							  不知道，不清楚，不明白
+[ ] Include xxx        							  不知道，不清楚，不明白
+[*] Include xxx        							  不知道，不清楚，不明白
+[*] Include xxx        							  不知道，不清楚，不明白
+[ ] Include xxx        							  不知道，不清楚，不明白
+[ ] Include xxx        							  不知道，不清楚，不明白
+[*] Include xxx        							  不知道，不清楚，不明白
+[*] Include xxx        							  不知道，不清楚，不明白
+[*] Include xxx        							  不知道，不清楚，不明白
+[ ] Include xxx        							  不知道，不清楚，不明白
+[ ] Include xxx        							  不知道，不清楚，不明白
+[*] Include xxx        							  不知道，不清楚，不明白
+< > luci-app-ssrserver-python.....................不知道，不清楚，不明白
+<*> luci-app-statistics...........................流量监控工具
+< > luci-app-syncdial.............................多拨虚拟网卡（原macvlan）
+< > luci-app-tinyproxy............................Tinyproxy是 HTTP(S)代理服务器
+<*> luci-app-transmission.........................BT下载工具
+< > luci-app-travelmate...........................旅行路由器
+< > luci-app-ttyd.................................网页终端命令行
+<*> luci-app-turboacc.............................大概是加速
+[*] Include Shortcut-FE
+[*] Include BBR CCA
+[ ] Include DNSForwarder
+[ ] Include DNSProxy
+< > luci-app-udpxy................................udpxy做组播服务器
+< > luci-app-uhttpd...............................uHTTPd Web服务器
+<*> luci-app-unblockmusic.........................解锁网易云灰色歌曲
+[*] UnblockNeteaseMusic Golang Version
+[ ] UnblockNeteaseMusic NodeJS Version
+< > luci-app-unbound..............................Unbound DNS解析器
+<*> luci-app-upnp.................................通用即插即用UPnP（端口自动转发）
+< > luci-app-usb-printer..........................USB 打印服务器
+< > luci-app-uugamebooster........................大概是与加速器吧
+< > luci-app-v2ray-server.........................不知道，不清楚，不明白
+< > luci-app-verysync.............................微力同步
+<*> luci-app-vlmcsd...............................KMS服务器设置
+< > luci-app-vnstat...............................vnStat网络监控（图表）
+< > luci-app-xxxxxxxxx............................不知道，不清楚，不明白
+<*> luci-app-vsftpd...............................FTP服务器
+< > luci-app-watchcat.............................断网检测功能与定时重启
+<*> luci-app-webadmin.............................Web管理页面设置
+< > luci-app-wifischedule.........................WiFi 计划
+< > luci-app-wireguard............................virtual服务器 WireGuard状态
+<*> luci-app-wol..................................WOL网络唤醒
+<*> luci-app-wrtbwmon.............................实时流量监测
+< > luci-app-xlnetacc.............................迅雷快鸟
+< > luci-app-zerotier.............................ZeroTier内网穿透
